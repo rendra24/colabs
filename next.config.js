@@ -2,7 +2,7 @@
 
 const withPWA = require('next-pwa');
 
-module.exports = withPWA({
+module.exports = {
     reactStrictMode: false,
     pwa: {
         dest: 'public',
@@ -13,10 +13,17 @@ module.exports = withPWA({
             outputStandalone: true,
         },
     },
+    future: {
+        webpack5: true,
+    },
+    webpack: function (config, options) {
+        config.experiments = {};
+        return config;
+    },
     images: {
         domains: ["cdn.pixabay.com","colabs-cms.test"]
      },
      env: {
         URL_API: 'http://colabs-cms.test/api/',
       },
-  });
+  };
