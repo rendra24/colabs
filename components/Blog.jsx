@@ -1,5 +1,6 @@
 import { useEffect , useState } from "react"
 import axios from 'axios'
+import Image from "components/Image"
 
 export default function Blog() {
   const [blogs, setBlogs] = useState([])
@@ -29,7 +30,13 @@ export default function Blog() {
 
             <div key={blogs.id} className="w-full px-4 lg:w-1/3 xl:w-1/3">
               <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10 dark:bg-slate-800">
-                <img src={ blogs.thumbnail } className="w-full min-h-[265px]" />
+                        <Image 
+                        width="397" 
+                        height="265" 
+                        src={ blogs.thumbnail } 
+                        alt={blogs.title}
+                        className="w-full min-h-[265px]" />
+
                 <div className="py-8 px-6">
                   <a href={ `blog/${blogs.slug}` } className="block mb-3 font-semibold text-xl hover:text-primary-200 truncate dark:text-white"><h3>{ blogs.title }</h3></a>
                   <p className="font-medium text-base text-gray-500 mb-3 dark:text-slate-300 min-h-[72px]">{ blogs.description.replace(regex, '').substring(0, 100) }</p>

@@ -1,4 +1,5 @@
 import { useRouter } from "next/router";
+import Image from "../../components/Image"
 
 export default function DynamicPage(postData) {
 
@@ -10,7 +11,13 @@ export default function DynamicPage(postData) {
           <div className="container">
             <div className="flex flex-wrap">
                 <div className="w-full lg:w-8/12 pr-3">
-                        <img src={ postData.postData.thumbnail } className="w-full rounded-xl" />
+                        <Image 
+                        alt="{postData.postData.title}" 
+                        placeholder="blur"
+                        width="724" 
+                        height="406" 
+                        src={ postData.postData.thumbnail } 
+                        className="w-full rounded-xl" />
 
                         <h1 className="text-2xl my-10 text-gray-500 font-semibold dark:text-white">{ postData.postData.title }</h1>
                         <div className="font-medium text-base text-gray-500 mb-3 dark:text-slate-300 min-h-[72px]" dangerouslySetInnerHTML={{ __html:postData.postData.description }}></div>

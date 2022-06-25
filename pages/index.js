@@ -80,7 +80,7 @@ export default function Home() {
 
             <div className="w-full self-end px-4 lg:w-1/2">
               <div className="mt-10">
-              <img src="/market-lauch.gif" />
+              <Image width="500" height="500" alt="banner-colabs" src="/market-lauch.gif" />
               </div>
             </div>
         </div>
@@ -143,16 +143,16 @@ export default function Home() {
         <div className="w-full px-4">
           <div className="flex flex-wrap justify-center items-center">
             <a href="#" className="max-w-[120px] mx-4 py-4 grayscale opacity-40 transition hover:grayscale-0 hover:opacity-100 duration-500 lg:mx-6 xl:mx-8">
-              <img src="/client/google.svg" />
+              <Image width="120" height="80" alt="google" src="/client/google.svg" />
             </a>
             <a href="#" className="max-w-[120px] mx-4 py-4 grayscale opacity-40 transition hover:grayscale-0 hover:opacity-100 duration-500 lg:mx-6 xl:mx-8">
-              <img src="/client/tokopedia.png" />
+            <Image width="120" height="36" alt="tokopedia" src="/client/tokopedia.png" />
             </a>
             <a href="#" className="max-w-[120px] mx-4 py-4 grayscale opacity-40 transition hover:grayscale-0 hover:opacity-100 duration-500 lg:mx-6 xl:mx-8">
-              <img src="/client/gojek.png" />
+            <Image width="120" height="40" alt="gojek" src="/client/gojek.png" />
             </a>
             <a href="#" className="max-w-[120px] mx-4 py-4 grayscale opacity-40 transition hover:grayscale-0 hover:opacity-100 duration-500 lg:mx-6 xl:mx-8">
-              <img src="/client/google.svg" />
+            <Image width="120" height="80" alt="google" src="/client/google.svg" />
             </a>
           </div>
         </div>

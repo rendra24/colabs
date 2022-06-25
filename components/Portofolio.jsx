@@ -28,7 +28,7 @@ export default function Portofolio() {
           <div className="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
           {
             porto.map(porto =>
-            <div className="mb-12 p-4 md:w-1/3">
+            <div key={porto.id} className="mb-12 p-4 md:w-1/3">
               <div className="rounded-md shadow-md overflow-hidden">
                 <Image
                 src={ porto.thumbnail }

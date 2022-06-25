@@ -1,4 +1,5 @@
 import { Menu, Transition } from '@headlessui/react'
+import Image from "components/Image"
 
 export default function Header(){
 
@@ -21,7 +22,7 @@ export default function Header(){
         <div className="container">
           <div className="flex items-center justify-between relative">
             <div className="px-4">
-              <a><img src="/logo.png" alt="Kolaborasi Bersama Logo" className="w-16 h-auto" /></a>
+              <a><Image width="64" height="64" src="/logo.png" alt="Kolaborasi Bersama Logo" className="w-16 h-auto" /></a>
             </div>
             <div className="flex items-center px-4">
             <Menu>
@@ -54,7 +55,7 @@ export default function Header(){
                 <div className="flex">
                         <span className="mr-2 text-sm text-slate-500">Light</span>
                         <input className="hidden" type="checkbox" id="dark-toggle" onClick={toggleDark} />
-                        <label for="dark-toggle">
+                        <label htmlFor="dark-toggle">
                           <div className="flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1">
                             <div className="toggle-circle h-4 w-4 rounded-full bg-white transition duration-300 ease-in-out"></div>
                           </div>
@@ -87,7 +88,7 @@ export default function Header(){
                       <div className="flex">
                         <span className="mr-2 text-sm text-slate-500">Light</span>
                         <input className="hidden" type="checkbox" id="dark-toggle" onClick={toggleDark} />
-                        <label for="dark-toggle">
+                        <label htmlFor="dark-toggle">
                           <div className="flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1">
                             <div className="toggle-circle h-4 w-4 rounded-full bg-white transition duration-300 ease-in-out"></div>
                           </div>
