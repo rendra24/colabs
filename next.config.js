@@ -18,6 +18,6 @@ module.exports = {
         domains: ["cdn.pixabay.com","colabs-cms.test"]
      },
      env: {
-        URL_API: 'http://colabs-cms.test/api/',
+        URL_API: 'http://dev-cms.colabs.id/api/',
       },
   };
