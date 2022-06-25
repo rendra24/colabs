@@ -1,16 +1,49 @@
-html,
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,500;0,700;0,800;1,500&family=Raleway:wght@200;700&display=swap');
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+.narbar-fixed {
+  @apply fixed z-[9999] bg-transparent bg-white bg-opacity-80 top-0 left-0 w-full flex items-center backdrop-blur-sm dark:bg-primary-700 dark:bg-opacity-50;
+  box-shadow: 0px 2px 20px rgb(1 41 112 / 10%);
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.link-nav {
+  @apply  text-black py-2 mx-8 flex group-hover:text-primary-500 dark:text-white dark:group-hover:text-white;
 }
 
-* {
-  box-sizing: border-box;
+.btn-primary {
+  @apply text-white bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg text-sm px-10 py-3 my-3 text-center inline-flex items-center;
+}
+
+.btn-danger {
+  @apply bg-danger-500 py-3 px-3 rounded-lg px-4 py-2 text-white hover:bg-danger-400;
+}
+
+/* alert */
+.alert-success {
+  @apply p-4 mb-4 text-sm text-green-700 bg-green-100 rounded-lg dark:bg-green-200 dark:text-green-800;
+}
+
+.alert-danger {
+  @apply p-4 mb-4 text-sm text-red-700 bg-red-100 rounded-lg dark:bg-red-200 dark:text-red-800;
+}
+
+.alert-info {
+  @apply p-4 mb-4 text-sm text-blue-700 bg-blue-100 rounded-lg dark:bg-blue-200 dark:text-blue-800;
+}
+
+/* badge */
+
+.badge {
+  @apply bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800;
+}
+
+#dark-toggle:checked ~ label div.toggle-circle {
+@apply translate-x-3;
 }
