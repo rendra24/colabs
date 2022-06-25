@@ -15,7 +15,7 @@ module.exports = {
         },
     },
     images: {
-        domains: ["cdn.pixabay.com","colabs-cms.test"]
+        domains: ["cdn.pixabay.com","dev-cms.colabs.id"]
      },
      env: {
         URL_API: 'https://dev-cms.colabs.id/api/',
