@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 import Image from "../../components/Image";
+import Head from "next/head";
 
 export default function DynamicPage(postData) {
 
@@ -7,6 +8,12 @@ export default function DynamicPage(postData) {
     const {slug} = routes.query;
     return (
         <>
+        <Head>
+          <title>Portofolio pembuatan {postData.postData.title}</title>
+          <meta name="description" content={`Jasa pembuatan webiste aplikasi ${postData.postData.title} menggunakan engine terbaru dengan harga paling murah dan berkualitas`} />
+          <meta property="og:title" content={`Portofolio pembuatan ${postData.postData.title}`} />
+          <meta property="og:description" content={`Jasa pembuatan webiste aplikasi ${postData.postData.title} menggunakan engine terbaru dengan harga paling murah dan berkualitas`} />
+        </Head>
         <section id="hero" className="mt-20 py-5 bg-primary-600">
         <div className="container">
           <div className="flex flex-wrap">
