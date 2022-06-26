@@ -2,12 +2,11 @@
   "name": "design-pattern",
   "version": "0.1.0",
   "private": true,
-  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "sitemap": "next-sitemap --config next-sitemap.config.js",
+    "sitemap": "next-sitemap --config next-sitemap.config.cjs",
     "lint": "next lint",
     "test": "jest",
     "coverage": "jest --collectCoverage=true"
