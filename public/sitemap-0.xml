@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url><loc>https://colabs.vercel.app</loc><lastmod>2022-06-26T09:52:13.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://colabs.vercel.app/blog</loc><lastmod>2022-06-26T09:52:13.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://colabs.vercel.app/post</loc><lastmod>2022-06-26T09:52:13.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://colabs.vercel.app/blog/introducing-flutter-3</loc><lastmod>2022-06-26T09:52:13.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://colabs.vercel.app/blog/python-in-the-browser-an-accelerat</loc><lastmod>2022-06-26T09:52:13.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://colabs.vercel.app/blog/emisi-metana-setahun-dari-sendawa-sapi-satu-peternakan-california-bisa-suplai-listrik-15-000-rumah</loc><lastmod>2022-06-26T09:52:13.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://colabs.vercel.app/portofolio/growcery-id-toko-sayur-online</loc><lastmod>2022-06-26T09:52:13.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://colabs.vercel.app/portofolio/koperasi-polresta-batu</loc><lastmod>2022-06-26T09:52:13.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://colabs.vercel.app/portofolio/task-management-hotel-harris</loc><lastmod>2022-06-26T09:52:13.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://colabs.vercel.app/portofolio/akinda-cargo-management-logistic</loc><lastmod>2022-06-26T09:52:13.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://colabs.vercel.app/portofolio/wadul-polisi-pengaduan-online</loc><lastmod>2022-06-26T09:52:13.054Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+</urlset>

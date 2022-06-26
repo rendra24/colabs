@@ -19,5 +19,6 @@ module.exports = {
      },
      env: {
         URL_API: 'https://dev-cms.colabs.id/api/',
+        SITE_URL: 'https://colabs.vercel.app',
       },
   };
